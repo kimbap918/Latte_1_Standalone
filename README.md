@@ -22,8 +22,8 @@ The standalone edition of the Latte_1 costume simulator — **no LaTale client i
 | Resources | Loaded from your own client | **Bundled (encrypted)** |
 | 리소스 업데이트 | 라테일 패치 후 "업데이트" 버튼 | **자동으로 내려받음** |
 | Resource updates | "Update" button after a LaTale patch | **Downloaded automatically** |
-| 용량 | 약 150MB | 약 240MB |
-| Size | ~150MB | ~240MB |
+| 내려받는 용량 | 약 150MB | 약 190MB |
+| Download size | ~150MB | ~190MB |
 
 라테일이 이미 설치되어 있고 Latte_1의 클라이언트 경로가 설정되어 있다면, 그 클라이언트의 데이터를 우선 사용합니다. <br>
 If a LaTale client path is already configured, the client's data takes priority over the bundled data.
@@ -47,24 +47,24 @@ Prefer no waiting on a server? This standalone edition runs entirely on your PC.
 
 ### ※ 가장 최신 버전의 릴리즈를 다운받아주시면 됩니다! Note: Please download the latest version of the release!
 
-빌드된 실행 파일은 이 저장소의 [**Releases**](../../releases) 에서 zip으로 받아주세요! <br>
-Get the built executable as a zip from this repository's [**Releases**](../../releases) page!
+설치 파일은 이 저장소의 [**Releases**](../../releases) 에서 받아주세요! <br>
+Get the installer from this repository's [**Releases**](../../releases) page!
 
 <br>
 
-1. 최신 릴리스의 `Latte_1_standalone.zip` 다운로드 후 압축 해제 <br>
-Download `Latte_1_standalone.zip` from the latest release and extract it.
+1. 최신 릴리스의 `Latte_1_Standalone-Setup-vX.X.X.exe` 를 다운로드해서 실행하세요. 설치 마법사를 따라 "다음"만 누르면 됩니다. 관리자 권한은 필요 없어요. <br>
+Download `Latte_1_Standalone-Setup-vX.X.X.exe` from the latest release and run it. Just follow the wizard. No administrator rights required.
+
+2. 시작 메뉴의 **Latte_1 Standalone** 으로 실행합니다. (바탕화면 아이콘은 설치 중에 선택할 수 있어요.) 제거는 Windows 설정의 "앱" 목록에서 할 수 있고, 저장한 캐릭터와 설정은 제거해도 남아 있습니다. <br>
+Launch **Latte_1 Standalone** from the Start menu (a desktop icon is optional during setup). Uninstall it from Windows "Apps" settings; your saved characters and settings are kept.
+
+> 처음 실행할 때 Windows가 "PC 보호" 경고를 띄울 수 있습니다. 개인이 만든 프로그램이라 코드 서명이 없기 때문이에요. "추가 정보 → 실행"을 누르면 됩니다. <br>
+> Windows may show a "SmartScreen" warning on first run because this indie program is not code-signed. Click "More info → Run anyway".
 
 <br>
 
-2. 폴더 안의 `Latte_1.exe` 실행. **`Latte_1.exe`와 `_internal/` 폴더는 반드시 같은 위치에 함께 있어야 합니다!** (분리하면 실행되지 않음) <br>
-Run `Latte_1.exe` inside the folder. **`Latte_1.exe` and the `_internal/` folder must stay in the same location together!** (It won't run if they're separated) <br>
-  ![](https://i.imgur.com/HN09zQK.png)
-
-<br>
-
-3. 끝! 라테일 클라이언트를 고르는 과정 없이 바로 시작됩니다. 첫 실행은 데이터를 준비하느라 10초 정도 걸릴 수 있어요. <br>
-That's it! There's no client-folder prompt. The first launch may take about 10 seconds while the data is prepared.
+끝! 라테일 클라이언트를 고르는 과정 없이 바로 시작됩니다. 첫 실행은 데이터를 준비하느라 10~20초 정도 걸릴 수 있어요. <br>
+That's it! There's no client-folder prompt. The first launch may take 10–20 seconds while the data is prepared.
 
 <br>
 <br>
