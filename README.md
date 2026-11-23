@@ -18,15 +18,13 @@ The standalone edition of the Latte_1 costume simulator — **no LaTale client i
 |---|---|---|
 | 라테일 클라이언트 | 필요 (첫 실행 때 폴더 선택) | **필요 없음** |
 | Requires LaTale client | Yes (asked on first launch) | **No** |
-| 리소스 | 내 클라이언트에서 직접 불러옴 | **앱에 암호화되어 포함** |
-| Resources | Loaded from your own client | **Bundled (encrypted)** |
-| 리소스 업데이트 | 라테일 패치 후 "업데이트" 버튼 | **자동으로 내려받음** |
-| Resource updates | "Update" button after a LaTale patch | **Downloaded automatically** |
+| 새 아이템 반영 | 라테일 패치 후 "업데이트" 버튼 | **자동으로 내려받음** |
+| New items after a patch | "Update" button after a LaTale patch | **Downloaded automatically** |
 | 내려받는 용량 | 약 150MB | 약 190MB |
 | Download size | ~150MB | ~190MB |
 
-라테일이 이미 설치되어 있고 Latte_1의 클라이언트 경로가 설정되어 있다면, 그 클라이언트의 데이터를 우선 사용합니다. <br>
-If a LaTale client path is already configured, the client's data takes priority over the bundled data.
+라테일이 이미 설치되어 있고 Latte_1의 클라이언트 경로가 설정되어 있다면, 그 클라이언트를 우선 사용합니다. <br>
+If a LaTale client path is already configured, that client is used first.
 
 <br>
 <br>
@@ -71,7 +69,7 @@ That's it! There's no client-folder prompt. The first launch may take 10–20 se
 
 ## 자동 업데이트(Auto Update)
 
-### 리소스(데이터) 업데이트 / Resource (data) updates
+### 새 아이템 업데이트 / Item updates
 라테일 패치로 새 아이템이 추가되면, 실행할 때 **바뀐 부분만** 자동으로 내려받습니다. (보통 수 MB 이하) <br>
 받은 뒤에는 **프로그램을 다시 시작하면** 적용돼요. 상단의 버전 표시줄에 안내가 뜹니다. <br>
 When a LaTale patch adds new items, only **the changed parts** are downloaded automatically on launch (usually a few MB). <br>
@@ -99,8 +97,8 @@ Search for hair, eyes, skin, fashion items, and more. <br>
 <br>
 
 ### 2. 버전확인(Version Check)
-현재 사용 중인 리소스의 버전을 확인할수 있습니다. 독립 실행판에서는 새 데이터가 자동으로 내려받아지며, 받은 뒤 재시작하면 적용됩니다. <br>
-Check the version of the resources currently in use. In the standalone edition, new data is downloaded automatically and applied after a restart. <br>
+현재 데이터 버전을 확인할수 있습니다. 독립 실행판에서는 새 데이터가 자동으로 내려받아지며, 받은 뒤 재시작하면 적용됩니다. <br>
+Check the current data version. In the standalone edition, new data is downloaded automatically and applied after a restart. <br>
 
 ![](https://i.imgur.com/Jq3W4hX.png)
 
@@ -188,6 +186,4 @@ chipok(kimbap918)
 <br>
 
 이 프로그램은 라테일(원작: Actoz Soft) 팬메이드 도구이며, 원작의 저작권은 Actoz Soft에 있습니다. <br>
-프로그램에 포함된 게임 리소스는 암호화되어 있으며, 이를 추출하거나 재배포하는 행위는 허용되지 않습니다. <br>
-This program is a fan-made desktop tool for LaTale. All original game copyrights belong to Actoz Soft. <br>
-The game resources included in this program are encrypted; extracting or redistributing them is not permitted.
+This program is a fan-made desktop tool for LaTale. All original game copyrights belong to Actoz Soft.
